@@ -95,6 +95,36 @@
         "description": "Set the Password of Service Account that will be used by the API to connect to Dynamics 365 Field Service Instance."
       }
     }
+    ,
+
+    "TenantName": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "Set the Azure Active Directory Name (Tenant Name) ."
+      }
+    }
+    
+    ,
+
+    "Audience": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "Set the APP URI that was configured in Azure AD application registration."
+      }
+    }
+    
+    ,
+
+    "ClientID": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "Set the ClientID that was configured NAtive App registration in in Azure AD."
+      }
+    }
+    
     
 
   },
