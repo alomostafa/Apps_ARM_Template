@@ -68,6 +68,35 @@
         "description": "Location for all resources."
       }
     }
+    ,
+    "FieldServiceURL": {
+      "type": "string",
+      "defaultValue": "https://x.crm4.dynamics.com",
+      "metadata": {
+        "description": "Set the Full URL of Dynamics 365 Field Service Instance that you will use."
+      }
+    }
+    ,
+
+    "Dynamics365Username": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "Set the Service Account that will be used by the API to connect to Dynamics 365 Field Service Instance."
+      }
+    }
+
+    ,
+
+    "Dynamics365Password": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "Set the Password of Service Account that will be used by the API to connect to Dynamics 365 Field Service Instance."
+      }
+    }
+    
+
   },
   "resources": [
     {
